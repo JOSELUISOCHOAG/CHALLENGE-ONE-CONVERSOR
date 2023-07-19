@@ -32,7 +32,7 @@ Se generan excepciones para manejar estos casos y proporcionar mensajes de error
 ## Contribuciones.
 
 Este proyecto se desarrolló como parte del curso impartido por Alura Latam y auspiciado por Oracle en su plan de desarrollo Next Education. permitiendo visualizar el avance del participante demostrando
-sus habilidades y conocimiento adquirido.
+sus habilidades y conocimiento adquirido en el area de programacion POO, y el uso del lenguaje JAVA.
 
 ## Autor
 Jose Luis Ochoa.
