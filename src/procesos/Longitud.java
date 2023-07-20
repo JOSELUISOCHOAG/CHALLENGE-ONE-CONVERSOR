@@ -252,7 +252,7 @@ public class Longitud implements ActionListener {
 		Medida medida2 = new Medida(2,  "Hectometro ",  100, "hm");
 		Medida medida3 = new Medida(3,  "Decametro  ",   10, "dam");
 		Medida medida4 = new Medida(4,  "Metro      ",    1, "m");
-		Medida medida5 = new Medida(5,  "Dedimetro  ",  0.1, "dm");
+		Medida medida5 = new Medida(5,  "Decimetro  ",  0.1, "dm");
 		Medida medida6 = new Medida(6,  "Centimetro ", 0.01, "cm");
 		Medida medida7 = new Medida(7,  "Milimetro  ",0.001, "mm");
 		
@@ -279,7 +279,9 @@ public class Longitud implements ActionListener {
 		txtMonto.setHorizontalAlignment(JTextField.RIGHT);
 		panelMonto.add(txtMonto);
 
-		resultadoInfo = Dibujar.dibujaLabel("Su tipo de Cambio es", 14);
+		
+		resultadoInfo = Dibujar.dibujaLabel("Factor de conversion", 14);
+
 		panelResultado.add(resultadoInfo);
 
 		mostrarInfo = Dibujar.dibujaGetNum(30, 17);
@@ -287,7 +289,7 @@ public class Longitud implements ActionListener {
 		mostrarInfo.setEditable(false);
 		panelResultado.add(mostrarInfo);
 
-		resultadoValor = Dibujar.dibujaLabel("Total convertido", 14);
+		resultadoValor = Dibujar.dibujaLabel("Valor equivalente", 14);
 		resultadoValor.setHorizontalAlignment(JTextField.RIGHT);
 		panelResultado.add(resultadoValor);
 
